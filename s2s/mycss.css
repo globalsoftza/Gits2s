@@ -1,0 +1,70 @@
+body {
+    background-image: url("Images/background.jpg");
+    margin: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1200px;
+    
+}
+
+.logo {
+    margin: auto;
+    width: 1200px;
+    border-radius: 10px;
+}
+
+.container1 {
+    border-radius: 10px;
+    margin: auto;
+    width: 1200px;
+    height: 20px;
+    background: background;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    
+}
+
+/*#navigation div {
+    float: left;
+    width: 100px;
+}*/
+
+.menu {
+    background-color: #333333;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px 14px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.menu img {
+    float: left;
+    display: block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu a:active {
+    background-color: white;
+    color: black;
+}
+
