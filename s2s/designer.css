@@ -1,40 +1,49 @@
-#designer input[type= "text"]{
+#form1 input[type= "text"]{
     width:400px;
-    height: 40px;
+    height: 45px;
     font-size: 20px;
     border-radius: 5px;
-    margin-bottom: 10px;
-    border-color: black;
-}
-#designer input[type= "password"]{
-    width:400px;
-    height: 40px;
-    font-size: 20px;
-    border-radius: 5px;
-    border-color: black;
-    margin-bottom: 10px;
-    
-}
-#designer input[type= "submit"]{
-    width:400px;
-    height: 40px;
-    font-size: 20px;
-    border-radius: 5px;
-    border-color: black;
-    margin-bottom: 10px;
-    
-}
-#form1 h2{
-    font-size: 30px;
     margin-bottom: 15px;
+    border-color: black;
+
+}
+#form1 input[type= "password"]{
+    width:400px;
+    height: 45px;
+    font-size: 40px;
+    border-radius: 5px;
+    border-color: black;
+   margin-bottom: 20px;
     
 }
-#form1 {
-    padding-left: 800px;
-    padding-top: 300px;
-    font-family: sans-serif;
-    background-color: lightblue;
-    background-origin: content-box;
-    background-position: center;
+#form1 input[type= "submit"]{
+    width:200px;
+    height: 55px;
+    font-size: 25px;
+    border-radius: 15px;
+    border-color: navy;
+    margin-bottom: 10px;
+    background-color: navy;
+    color: white;
+    outline-width: 5px;
+    outline-color: navy;
+    border-style: solid;
     
+    
+}
+
+#form1 {
+    padding-left: 600px;
+    background-color: #F6F0EF;
+    padding-top: 300px;
+    padding-left: 400px;
+    padding-bottom: 321px;
+    opacity:.8; 
+    
+}
+#form1 label{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 15px;
+    font-family: calibri;
 }
