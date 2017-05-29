@@ -1,6 +1,6 @@
   <link rel="stylesheet" href="designer.css">
- 
-  <form method="POST" id="form1" action="ldap.php"  >
+ <?php include('ldap.php'); ?>
+  <form method="POST" id="form1" action="Home.php"  >
      <h2>User Login</h2>
     <div id="designer">
       <input type="text" name="username" value="" placeholder="s211091832@nmmu.ac.za" size="40" /><br>
