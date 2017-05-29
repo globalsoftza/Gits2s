@@ -7,16 +7,40 @@
     </head>
     
     <body>
+		<?php
+			$Home="myTabs";
+			$PostAds="myTabs";
+			$Notices="myTabs";
+			$Profile="myTabs";
+			
+			
+			if($Home == "Home")
+			{
+				$Home = 'MyActiveTab';
+			}
+			else if($PostAds == 'PostAds')
+			{
+				$PostAds='MyActiveTab';
+			}
+			else if ($Notices == 'Notices')
+			{
+				$Notices = 'MyActiveTab';
+			}
+			else if($Profile == 'Profile')
+			{
+				$Profile = 'MyActiveTab';
+			}
+		?>
         <div>
             <div><img class="logo" src="Images/copy.png" alt="NMU LOGO"></div>
         </div>
         
         <div class="menu" id="navigation">
             <img class="logo" src="Images/home.png" alt="NMU LOGO">
-            <a href="#home">Home</a>
-            <a href="#adverts">Adverts</a>
-            <a href="#notices">Notices</a>
-            <a href="#profile">Profile</a>
+            <a class="<?php echo $Home;?>" href="Home.php">Home</a>
+            <a class="<?php echo $PostAds;?>" href="PostAds.php">Adverts</a>
+            <a class="<?php echo $Notices;?>" href="Notices.php">Notices</a>
+            <a class="<?php echo $Profile;?>" href="Profile.php">Profile</a>
         </div>
         
         <div>
