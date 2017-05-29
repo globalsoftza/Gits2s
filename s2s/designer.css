@@ -1,0 +1,40 @@
+#designer input[type= "text"]{
+    width:400px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-color: black;
+}
+#designer input[type= "password"]{
+    width:400px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: black;
+    margin-bottom: 10px;
+    
+}
+#designer input[type= "submit"]{
+    width:400px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: black;
+    margin-bottom: 10px;
+    
+}
+#form1 h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    
+}
+#form1 {
+    padding-left: 800px;
+    padding-top: 300px;
+    font-family: sans-serif;
+    background-color: lightblue;
+    background-origin: content-box;
+    background-position: center;
+    
+}
